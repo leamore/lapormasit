@@ -157,7 +157,7 @@ export default function App() {
             <div className="flex items-center gap-2 cursor-pointer" onClick={() => setActiveTab('form')}>
               <Activity className="h-8 w-8 text-blue-300" />
               <div>
-                <h1 className="text-xl font-bold tracking-tight">IT Support RS Sehat Sentosa</h1>
+                <h1 className="text-xl font-bold tracking-tight">IT Support RS Prasetya Husada</h1>
                 <p className="text-xs text-blue-200">Sistem Pelaporan & Penanganan Kendala Teknis</p>
               </div>
             </div>
@@ -621,7 +621,7 @@ function ITDashboard({ tickets, onStatusChange, userRole, onDeleteTicket }) {
       {/* Header Print */}
       <div className="hidden print:block mb-8 text-center border-b pb-4">
         <h1 className="text-2xl font-bold text-slate-900">Laporan IT Support</h1>
-        <h2 className="text-xl text-slate-700">RS Sehat Sentosa</h2>
+        <h2 className="text-xl text-slate-700">RS Prasetya Husada</h2>
         <p className="text-lg font-medium text-slate-800 mt-2">{getTimeLabel()}</p>
         <p className="text-sm text-slate-500">Dicetak pada: {new Date().toLocaleString('id-ID')}</p>
       </div>
